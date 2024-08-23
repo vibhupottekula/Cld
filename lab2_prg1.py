@@ -9,7 +9,7 @@ def train_and_predict(height_values, weight_values, new_height):
 
 if __name__ == "__main__":
     height = [[4.0], [5.0], [6.0], [7.0], [8.0], [9.0], [10.0]]
-    weight = [16, 25, 36, 49, 64, 81, 100]
+    weight = [8, 10, 12, 14, 16, 18, 20]
     
     plt.scatter(height, weight, color='black')
     plt.xlabel("Height")
